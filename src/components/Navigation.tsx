@@ -1,18 +1,27 @@
-import { useState } from "react";
+import { useState, useEffect } from "react";
 import { Link, useLocation } from "react-router-dom";
+import { useTranslation } from "react-i18next";
 import { Button } from "@/components/ui/button";
+import LanguageSwitcher from "@/components/LanguageSwitcher";
 import { Menu, X, Code2 } from "lucide-react";
 
 const Navigation = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
   const location = useLocation();
+  const { t, i18n } = useTranslation();
+
+  useEffect(() => {
+    // Set initial direction based on language
+    document.documentElement.dir = i18n.language === 'fa' ? 'rtl' : 'ltr';
+    document.documentElement.lang = i18n.language;
+  }, [i18n.language]);
 
   const navItems = [
-    { name: "Home", path: "/" },
-    { name: "About", path: "/about" },
-    { name: "Services", path: "/services" },
-    { name: "Portfolio", path: "/portfolio" },
-    { name: "Contact", path: "/contact" },
+    { name: t('nav.home'), path: "/" },
+    { name: t('nav.about'), path: "/about" },
+    { name: t('nav.services'), path: "/services" },
+    { name: t('nav.portfolio'), path: "/portfolio" },
+    { name: t('nav.contact'), path: "/contact" },
   ];
 
   const isActive = (path: string) => location.pathname === path;
@@ -42,8 +51,9 @@ const Navigation = () => {
                 {item.name}
               </Link>
             ))}
+            <LanguageSwitcher />
             <Button variant="hero" size="sm">
-              Get Quote
+              {t('nav.getQuote')}
             </Button>
           </div>
 
@@ -78,9 +88,10 @@ const Navigation = () => {
                 {item.name}
               </Link>
             ))}
-            <div className="px-3 py-2">
+            <div className="px-3 py-2 space-y-2">
+              <LanguageSwitcher />
               <Button variant="hero" size="sm" className="w-full">
-                Get Quote
+                {t('nav.getQuote')}
               </Button>
             </div>
           </div>

@@ -1,4 +1,5 @@
 import { useState } from "react";
+import { useTranslation } from "react-i18next";
 import Navigation from "@/components/Navigation";
 import Footer from "@/components/Footer";
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
@@ -12,6 +13,7 @@ import { Mail, Phone, MapPin, Clock, Send } from "lucide-react";
 
 const Contact = () => {
   const { toast } = useToast();
+  const { t } = useTranslation();
   const [formData, setFormData] = useState({
     name: "",
     email: "",
@@ -23,8 +25,8 @@ const Contact = () => {
   const handleSubmit = (e: React.FormEvent) => {
     e.preventDefault();
     toast({
-      title: "Message Sent!",
-      description: "Thank you for contacting us. We'll get back to you within 24 hours.",
+      title: t('contact.messageSent'),
+      description: t('contact.messageSentDescription'),
     });
     setFormData({
       name: "",
@@ -48,10 +50,10 @@ const Contact = () => {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center">
             <h1 className="text-4xl md:text-5xl font-bold text-foreground mb-6">
-              Get In <span className="text-gradient">Touch</span>
+              {t('contact.title')} <span className="text-gradient">{t('contact.titleHighlight')}</span>
             </h1>
             <p className="text-xl text-muted-foreground max-w-3xl mx-auto">
-              Ready to start your next project? Contact us today and let's discuss how we can help transform your business.
+              {t('contact.description')}
             </p>
           </div>
         </div>
@@ -64,13 +66,13 @@ const Contact = () => {
             {/* Contact Form */}
             <Card className="gradient-card shadow-card">
               <CardHeader>
-                <CardTitle className="text-2xl font-bold">Send us a Message</CardTitle>
+                <CardTitle className="text-2xl font-bold">{t('contact.sendMessage')}</CardTitle>
               </CardHeader>
               <CardContent>
                 <form onSubmit={handleSubmit} className="space-y-6">
                   <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
                     <div>
-                      <Label htmlFor="name">Full Name *</Label>
+                      <Label htmlFor="name">{t('contact.fullName')} *</Label>
                       <Input
                         id="name"
                         type="text"
@@ -81,7 +83,7 @@ const Contact = () => {
                       />
                     </div>
                     <div>
-                      <Label htmlFor="email">Email Address *</Label>
+                      <Label htmlFor="email">{t('contact.emailAddress')} *</Label>
                       <Input
                         id="email"
                         type="email"
@@ -136,7 +138,7 @@ const Contact = () => {
 
                   <Button type="submit" variant="hero" size="lg" className="w-full">
                     <Send className="mr-2 h-5 w-5" />
-                    Send Message
+                    {t('contact.sendMessageButton')}
                   </Button>
                 </form>
               </CardContent>

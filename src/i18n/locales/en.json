@@ -1,0 +1,254 @@
+{
+  "nav": {
+    "home": "Home",
+    "about": "About",
+    "services": "Services",
+    "portfolio": "Portfolio",
+    "contact": "Contact",
+    "getQuote": "Get Quote"
+  },
+  "hero": {
+    "title": "Transform Your",
+    "titleHighlight": "Digital Future",
+    "description": "We craft cutting-edge software solutions that drive innovation and accelerate business growth for forward-thinking companies.",
+    "startProject": "Start Your Project",
+    "watchDemo": "Watch Demo",
+    "stats": {
+      "projects": "Projects Delivered",
+      "clients": "Happy Clients",
+      "success": "Success Rate",
+      "support": "Support"
+    }
+  },
+  "services": {
+    "title": "Our",
+    "titleHighlight": "Services",
+    "description": "We offer comprehensive IT solutions tailored to meet your business needs and drive digital transformation.",
+    "learnMore": "Learn More",
+    "webDevelopment": {
+      "title": "Web Development",
+      "description": "Custom web applications built with modern frameworks and best practices for optimal performance.",
+      "features": [
+        "React/Next.js",
+        "Node.js",
+        "TypeScript",
+        "Progressive Web Apps"
+      ]
+    },
+    "mobileDevelopment": {
+      "title": "Mobile Development",
+      "description": "Native and cross-platform mobile apps that deliver exceptional user experiences.",
+      "features": [
+        "React Native",
+        "iOS/Android",
+        "UI/UX Design",
+        "App Store Optimization"
+      ]
+    },
+    "cloudSolutions": {
+      "title": "Cloud Solutions",
+      "description": "Scalable cloud infrastructure and migration services for modern businesses.",
+      "features": [
+        "AWS/Azure",
+        "DevOps",
+        "Microservices",
+        "Auto Scaling"
+      ]
+    },
+    "cybersecurity": {
+      "title": "Cybersecurity",
+      "description": "Comprehensive security solutions to protect your digital assets and data.",
+      "features": [
+        "Security Audits",
+        "Penetration Testing",
+        "Compliance",
+        "Risk Assessment"
+      ]
+    },
+    "dataAnalytics": {
+      "title": "Data Analytics",
+      "description": "Transform your data into actionable insights with advanced analytics solutions.",
+      "features": [
+        "Business Intelligence",
+        "Machine Learning",
+        "Data Visualization",
+        "Reporting"
+      ]
+    },
+    "aiIntegration": {
+      "title": "AI Integration",
+      "description": "Implement artificial intelligence to automate processes and enhance user experiences.",
+      "features": [
+        "Machine Learning",
+        "Natural Language Processing",
+        "Computer Vision",
+        "Chatbots"
+      ]
+    }
+  },
+  "portfolio": {
+    "title": "Our",
+    "titleHighlight": "Portfolio",
+    "description": "Explore our recent projects and see how we've helped businesses achieve their digital goals.",
+    "viewAllProjects": "View All Projects",
+    "featured": "Featured",
+    "viewDetails": "View Details",
+    "liveDemo": "Live Demo",
+    "sourceCode": "Source Code"
+  },
+  "testimonials": {
+    "title": "What Our",
+    "titleHighlight": "Clients Say",
+    "description": "Don't just take our word for it. Here's what our clients have to say about their experience working with us."
+  },
+  "cta": {
+    "title": "Ready to Start Your Digital Transformation?",
+    "description": "Join hundreds of satisfied clients who have transformed their businesses with our innovative technology solutions.",
+    "getStarted": "Get Started Today",
+    "scheduleConsultation": "Schedule Consultation"
+  },
+  "about": {
+    "title": "About",
+    "titleHighlight": "TechCorp",
+    "description": "Founded in 2015, TechCorp has been at the forefront of digital transformation, helping businesses leverage technology to achieve extraordinary results.",
+    "ourStory": "Our Story",
+    "storyParagraph1": "TechCorp was born from a simple idea: technology should empower businesses, not complicate them. Our founders, Sarah and Michael, witnessed firsthand how the right technology solutions could transform entire organizations.",
+    "storyParagraph2": "Starting as a small consultancy, we've grown into a full-service technology partner for companies ranging from startups to Fortune 500 enterprises. Our success is measured by our clients' success.",
+    "storyParagraph3": "Today, we're proud to have delivered over 500 projects, maintained a 98% client satisfaction rate, and built a team of passionate technologists who share our vision of making technology work for everyone.",
+    "ourValues": "Our Values",
+    "valuesDescription": "These core principles guide everything we do and define who we are as a company.",
+    "missionDriven": {
+      "title": "Mission-Driven",
+      "description": "We're committed to delivering technology solutions that create real business value and drive meaningful impact."
+    },
+    "clientFocused": {
+      "title": "Client-Focused",
+      "description": "Our clients' success is our success. We build lasting partnerships through transparency and exceptional service."
+    },
+    "innovationFirst": {
+      "title": "Innovation First",
+      "description": "We stay ahead of technology trends to provide cutting-edge solutions that give our clients competitive advantages."
+    },
+    "qualityExcellence": {
+      "title": "Quality Excellence",
+      "description": "We maintain the highest standards in everything we do, from code quality to project delivery and support."
+    },
+    "meetOurTeam": "Meet Our Team",
+    "teamDescription": "Passionate professionals dedicated to delivering exceptional results.",
+    "stats": {
+      "projectsCompleted": "Projects Completed",
+      "happyClients": "Happy Clients",
+      "yearsExperience": "Years Experience",
+      "satisfactionRate": "Satisfaction Rate"
+    }
+  },
+  "servicesPage": {
+    "title": "Our",
+    "titleHighlight": "Services",
+    "description": "Comprehensive IT solutions designed to accelerate your business growth and digital transformation journey.",
+    "getStarted": "Get Started Today",
+    "keyFeatures": "Key Features:",
+    "technologies": "Technologies:",
+    "ourProcess": "Our",
+    "processHighlight": "Process",
+    "processDescription": "We follow a proven methodology to ensure your project is delivered on time, within budget, and exceeds expectations.",
+    "process": {
+      "discovery": {
+        "title": "Discovery & Planning",
+        "description": "We start by understanding your business needs, goals, and technical requirements to create a comprehensive project plan."
+      },
+      "design": {
+        "title": "Design & Architecture",
+        "description": "Our team designs the system architecture and user interface, ensuring scalability, security, and optimal user experience."
+      },
+      "development": {
+        "title": "Development & Testing",
+        "description": "We build your solution using agile methodologies, with continuous testing and quality assurance throughout the process."
+      },
+      "deployment": {
+        "title": "Deployment & Support",
+        "description": "We deploy your solution and provide ongoing support, maintenance, and optimization to ensure continued success."
+      }
+    },
+    "ctaTitle": "Ready to Transform Your Business?",
+    "ctaDescription": "Let's discuss how our expertise can help you achieve your technology goals and drive business success.",
+    "getFreeConsultation": "Get Free Consultation",
+    "viewPortfolio": "View Our Portfolio"
+  },
+  "contact": {
+    "title": "Get In",
+    "titleHighlight": "Touch",
+    "description": "Ready to start your next project? Contact us today and let's discuss how we can help transform your business.",
+    "sendMessage": "Send us a Message",
+    "fullName": "Full Name",
+    "emailAddress": "Email Address",
+    "companyName": "Company Name",
+    "serviceInterested": "Service Interested In",
+    "projectDetails": "Project Details",
+    "projectDetailsPlaceholder": "Tell us about your project requirements, timeline, and any specific needs...",
+    "sendMessageButton": "Send Message",
+    "contactInformation": "Contact Information",
+    "email": "Email",
+    "phone": "Phone",
+    "address": "Address",
+    "businessHours": "Business Hours",
+    "businessHoursText": "Mon - Fri: 9:00 AM - 6:00 PM PST\nSat - Sun: Emergency support only",
+    "whyChoose": "Why Choose TechCorp?",
+    "whyChooseReasons": [
+      "Free initial consultation and project assessment",
+      "Transparent pricing with no hidden costs",
+      "Dedicated project manager for seamless communication",
+      "Agile development methodology for faster delivery",
+      "Ongoing support and maintenance services"
+    ],
+    "readyToStart": "Ready to Get Started?",
+    "readyToStartDescription": "Schedule a free 30-minute consultation to discuss your project requirements and get a custom quote.",
+    "scheduleConsultation": "Schedule Consultation",
+    "faq": "Frequently Asked",
+    "faqHighlight": "Questions",
+    "faqDescription": "Common questions about our services and process.",
+    "messageSent": "Message Sent!",
+    "messageSentDescription": "Thank you for contacting us. We'll get back to you within 24 hours."
+  },
+  "portfolioPage": {
+    "title": "Our",
+    "titleHighlight": "Portfolio",
+    "description": "Explore our successful projects and see how we've helped businesses across various industries achieve their digital transformation goals.",
+    "searchPlaceholder": "Search projects, technologies...",
+    "featuredProjects": "Featured Projects",
+    "allProjects": "All Projects",
+    "viewProject": "View Project",
+    "noProjectsFound": "No projects found matching your criteria.",
+    "readyToStart": "Ready to Start Your Project?",
+    "readyToStartDescription": "Let's discuss how we can help bring your ideas to life with cutting-edge technology solutions.",
+    "startYourProject": "Start Your Project",
+    "stats": {
+      "projectsDelivered": "Projects Delivered",
+      "happyClients": "Happy Clients",
+      "industriesServed": "Industries Served",
+      "successRate": "Success Rate"
+    }
+  },
+  "footer": {
+    "description": "Leading IT solutions provider, transforming businesses through innovative technology and exceptional service.",
+    "quickLinks": "Quick Links",
+    "contactInfo": "Contact Info",
+    "copyright": "© 2024 TechCorp. All rights reserved."
+  },
+  "common": {
+    "loading": "Loading...",
+    "error": "An error occurred",
+    "retry": "Retry",
+    "close": "Close",
+    "save": "Save",
+    "cancel": "Cancel",
+    "edit": "Edit",
+    "delete": "Delete",
+    "view": "View",
+    "share": "Share",
+    "more": "More",
+    "less": "Less",
+    "showAll": "Show All",
+    "hideAll": "Hide All"
+  }
+}
